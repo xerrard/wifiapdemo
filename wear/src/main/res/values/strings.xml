@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wifiapdemo</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="send_file">发送文件</string>
+    <string name="open_ap">open ap</string>
+    <string name="connect_ap">connect ap</string>
+</resources>

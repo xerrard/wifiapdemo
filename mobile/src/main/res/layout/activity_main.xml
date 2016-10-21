@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.xerrard.wifiapdemo.org.xerrard.wifiapdemo.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_open_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_ap"/>
+    <Button
+        android:id="@+id/btn_connect_ap"
+        android:layout_below="@id/btn_open_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_ap"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/btn_connect_ap"
+        android:text="@string/hello_world"/>
+
+    <Button
+        android:id="@+id/btn_send_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_file"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
